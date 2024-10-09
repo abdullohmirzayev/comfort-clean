@@ -4,6 +4,11 @@ import Carousel from 'react-multi-carousel'
 import { responsive } from '../../config/constants'
 import styles from './Anons.module.css'
 
+import video1 from '/assets/anons-1.mp4'
+import video2 from '/assets/anons-2.mp4'
+import video3 from '/assets/anons-3.mp4'
+import video4 from '/assets/anons-4.mp4'
+
 const Anons = () => {
 	const { t } = useTranslation()
 	return (
@@ -35,7 +40,7 @@ const Anons = () => {
 						autoPlay
 						muted
 					>
-						<source src='/public/assets/anons-1.mp4' type='video/mp4' />
+						<source src={video1} type='video/mp4' />
 						Your browser does not support the video tag.
 					</video>
 				</div>
@@ -51,7 +56,7 @@ const Anons = () => {
 						autoPlay
 						muted
 					>
-						<source src='/public/assets/anons-2.mp4' type='video/mp4' />
+						<source src={video2} type='video/mp4' />
 						Your browser does not support the video tag.
 					</video>
 				</div>
@@ -67,7 +72,7 @@ const Anons = () => {
 						autoPlay
 						muted
 					>
-						<source src='/public/assets/anons-3.mp4' type='video/mp4' />
+						<source src={video3} type='video/mp4' />
 						Your browser does not support the video tag.
 					</video>
 				</div>
@@ -83,7 +88,7 @@ const Anons = () => {
 						autoPlay
 						muted
 					>
-						<source src='/public/assets/anons-4.mp4' type='video/mp4' />
+						<source src={video4} type='video/mp4' />
 						Your browser does not support the video tag.
 					</video>
 				</div>
