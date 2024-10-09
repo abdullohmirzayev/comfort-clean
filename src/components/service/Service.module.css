@@ -1,0 +1,148 @@
+@keyframes shiny-btn1 {
+	0% {
+		-webkit-transform: scale(0) rotate(45deg);
+		opacity: 0;
+	}
+
+	80% {
+		-webkit-transform: scale(0) rotate(45deg);
+		opacity: 0.5;
+	}
+	81% {
+		-webkit-transform: scale(4) rotate(45deg);
+		opacity: 1;
+	}
+	100% {
+		-webkit-transform: scale(50) rotate(45deg);
+		opacity: 0;
+	}
+}
+
+.btn_11_nav {
+	border: none;
+	background: #04a2ba;
+	background: linear-gradient(0deg, #04a2ba);
+	color: #fff;
+	overflow: hidden;
+	height: 60px;
+	border-radius: 25px;
+	padding: 10px 25px;
+	margin: 0 auto;
+	font-weight: 500;
+	font-size: 20px;
+	cursor: pointer;
+	transition: all 0.3s ease;
+	font-family: Unbounded;
+	position: relative;
+	outline: none;
+}
+
+.btn_11_nav:active {
+	box-shadow: 4px 4px 6px #ffffff4d, -4px -4px 6px #747d8833,
+		inset -4px -4px 6px #fff3, inset 4px 4px 6px #0003;
+}
+
+.btn_11_nav:hover {
+	opacity: 0.7;
+}
+
+.btn_11_nav:hover {
+	text-decoration: none;
+	color: #fff;
+}
+
+.btn_11_nav:before {
+	position: absolute;
+	content: '';
+	top: -180px;
+	left: 0;
+	width: 30px;
+	height: 100%;
+	background-color: #fff;
+	animation: shiny-btn1 3s ease-in-out infinite;
+}
+
+.service_cards {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	max-width: 443px;
+	height: 450px;
+	border-radius: 12px;
+	background: #f3f6f6;
+	margin-right: 16px;
+	margin-top: 16px;
+}
+
+.service_card_title {
+	color: #2c788d;
+	font-family: Unbounded;
+	font-size: 30px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	margin-bottom: 30px;
+	text-align: center;
+}
+.service_card_btn {
+	color: #fff;
+	border-radius: 25px;
+	font-size: 22px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	max-width: 190px;
+	height: 50px;
+	justify-self: flex-end;
+}
+
+@media (max-width: 495px) {
+	.service_card_title {
+		font-size: 25px;
+	}
+}
+
+@media (max-width: 520px) {
+	.service_card_btn {
+		font-size: 15px;
+		max-width: 150px;
+		height: 35px;
+	}
+	.service_cards {
+		height: 300px;
+	}
+	.service_card_title {
+		font-size: 20px;
+		margin-bottom: 15px;
+	}
+}
+
+@media (max-width: 715px) {
+	.service_card_btn {
+		max-width: 125px;
+		font-size: 16px;
+	}
+}
+
+@media (max-width: 971px) {
+	.service_cards {
+		max-width: 100%;
+		margin-right: 0;
+	}
+}
+@media (max-width: 1071px) {
+	.service_cards {
+		max-width: 450px;
+	}
+}
+@media (max-width: 1271px) {
+	.service_cards {
+		max-width: 500px;
+	}
+}
+@media (max-width: 1416px) {
+	.service_cards {
+		max-width: 600px;
+	}
+}

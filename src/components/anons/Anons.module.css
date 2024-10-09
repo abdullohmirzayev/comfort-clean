@@ -1,0 +1,45 @@
+.carousel {
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+}
+
+.carousel {
+	display: flex;
+	overflow-x: auto;
+	gap: 1rem;
+	scroll-behavior: smooth;
+}
+
+.carousel::-webkit-scrollbar {
+	display: none;
+}
+
+.carousel_item {
+	flex: 0 0 100%;
+	display: flex;
+	justify-content: center;
+}
+
+@media (min-width: 450px) {
+	.carousel_item {
+		flex: 0 0 50%;
+	}
+}
+
+@media (min-width: 600px) {
+	.carousel_item {
+		flex: 0 0 50%;
+	}
+}
+
+@media (min-width: 768px) {
+	.carousel_item {
+		flex: 0 0 33.33%;
+	}
+}
+
+@media (min-width: 1024px) {
+	.carousel_item {
+		flex: 0 0 25%;
+	}
+}
