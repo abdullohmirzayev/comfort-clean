@@ -23,7 +23,7 @@ const Service = () => {
 								<div className='w-full h-2/4'>
 									<img
 										className='w-full h-full'
-										src='src/assets/service-1.png'
+										src='../../assets/service-1.png'
 										alt='service img'
 									/>
 								</div>
@@ -49,7 +49,7 @@ const Service = () => {
 								<div className='w-full h-2/4'>
 									<img
 										className='w-full h-full'
-										src='src/assets/service-2.png'
+										src='../../assets/service-2.png'
 										alt='service img'
 									/>
 								</div>
@@ -75,7 +75,7 @@ const Service = () => {
 								<div className='w-full h-2/4'>
 									<img
 										className='w-full h-full'
-										src='src/assets/service-3.png'
+										src='../../assets/service-3.png'
 										alt='service img'
 									/>
 								</div>
@@ -101,7 +101,7 @@ const Service = () => {
 								<div className='w-full h-2/4'>
 									<img
 										className='w-full h-full'
-										src='src/assets/service-4.png'
+										src='../../assets/service-4.png'
 										alt='service img'
 									/>
 								</div>
@@ -127,7 +127,7 @@ const Service = () => {
 								<div className='w-full h-2/4'>
 									<img
 										className='w-full h-full'
-										src='src/assets/service-5.png'
+										src='../../assets/service-5.png'
 										alt='service img'
 									/>
 								</div>

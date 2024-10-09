@@ -11,7 +11,7 @@ const Footer = () => {
 					<a href='#' className={style.footer_logo_link}>
 						<img
 							className={style.logo_pic}
-							src='src/assets/logo.png'
+							src='../../assets/logo.png'
 							alt='This is the footer logo'
 						/>
 					</a>

@@ -35,7 +35,7 @@ const Anons = () => {
 						autoPlay
 						muted
 					>
-						<source src='src/assets/anons-1.mp4' type='video/mp4' />
+						<source src='../../assets/anons-1.mp4' type='video/mp4' />
 						Your browser does not support the video tag.
 					</video>
 				</div>
@@ -51,7 +51,7 @@ const Anons = () => {
 						autoPlay
 						muted
 					>
-						<source src='src/assets/anons-2.mp4' type='video/mp4' />
+						<source src='../../assets/anons-2.mp4' type='video/mp4' />
 						Your browser does not support the video tag.
 					</video>
 				</div>
@@ -67,7 +67,7 @@ const Anons = () => {
 						autoPlay
 						muted
 					>
-						<source src='src/assets/anons-3.mp4' type='video/mp4' />
+						<source src='../../assets/anons-3.mp4' type='video/mp4' />
 						Your browser does not support the video tag.
 					</video>
 				</div>
@@ -83,7 +83,7 @@ const Anons = () => {
 						autoPlay
 						muted
 					>
-						<source src='src/assets/anons-4.mp4' type='video/mp4' />
+						<source src='../../assets/anons-4.mp4' type='video/mp4' />
 						Your browser does not support the video tag.
 					</video>
 				</div>

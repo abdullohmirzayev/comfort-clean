@@ -42,14 +42,14 @@ const ResultRug = () => {
 					onMouseMove={handleMove}
 					onMouseDown={handleMouseDown}
 				>
-					<img src='src/assets/nasty.jpg' alt='before result' />
+					<img src='../../assets/nasty.jpg' alt='before result' />
 
 					<div
 						className='absolute top-0 left-0 right-0 bottom-0 w-full max-w-[700px] aspect-[70/45] m-auto overflow-hidden select-none'
 						style={{ clipPath: `inset(0 ${100 - sliderPosition}% 0 0)` }}
 					>
 						<img
-							src='src/assets/result.jpg'
+							src='../../assets/result.jpg'
 							alt='after result'
 							className='object-fill'
 						/>
