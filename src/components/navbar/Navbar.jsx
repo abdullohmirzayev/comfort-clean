@@ -37,7 +37,7 @@ const Navbar = ({ handleChange, lange }) => {
 						href='#main'
 					>
 						<img
-							src='../../assets/logo.png'
+							src='/public/assets/logo.png'
 							alt='logo'
 							className={`${styles.nav_logo_link}`}
 						/>

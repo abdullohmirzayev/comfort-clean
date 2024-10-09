@@ -75,7 +75,7 @@
 				rgba(3, 3, 3, 0.616),
 				rgba(199, 185, 185, 0.205)
 			),
-			url(../../assets/hero-main-pic.png);
+			url(/public/assets/hero-main-pic.png);
 		background-repeat: no-repeat;
 		background-size: cover;
 		padding: 20px;

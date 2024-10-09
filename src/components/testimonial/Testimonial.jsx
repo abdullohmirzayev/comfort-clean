@@ -37,7 +37,7 @@ const Testimonial = () => {
 								<a className='inline-flex items-center'>
 									<img
 										alt='testimonial'
-										src='../../assets/clent-1.jpg'
+										src='/public/assets/clent-1.jpg'
 										className='w-12 h-12 rounded-full flex-shrink-0 object-cover object-center'
 									/>
 									<span className='flex-grow flex flex-col pl-4'>
@@ -65,7 +65,7 @@ const Testimonial = () => {
 								<a className='inline-flex items-center'>
 									<img
 										alt='testimonial'
-										src='../../assets/clent-2.webp'
+										src='/public/assets/clent-2.webp'
 										className='w-12 h-12 rounded-full flex-shrink-0 object-cover object-center'
 									/>
 									<span className='flex-grow flex flex-col pl-4'>
@@ -93,7 +93,7 @@ const Testimonial = () => {
 								<a className='inline-flex items-center'>
 									<img
 										alt='testimonial'
-										src='../../assets/clent-3.jpg'
+										src='/public/assets/clent-3.jpg'
 										className='w-12 h-12 rounded-full flex-shrink-0 object-cover object-center'
 									/>
 									<span className='flex-grow flex flex-col pl-4'>
@@ -121,7 +121,7 @@ const Testimonial = () => {
 								<a className='inline-flex items-center'>
 									<img
 										alt='testimonial'
-										src='../../assets/clent-4.jpg'
+										src='/public/assets/clent-4.jpg'
 										className='w-12 h-12 rounded-full flex-shrink-0 object-cover object-center'
 									/>
 									<span className='flex-grow flex flex-col pl-4'>
@@ -149,7 +149,7 @@ const Testimonial = () => {
 								<a className='inline-flex items-center'>
 									<img
 										alt='testimonial'
-										src='../../assets/clent-1.jpg'
+										src='/public/assets/clent-1.jpg'
 										className='w-12 h-12 rounded-full flex-shrink-0 object-cover object-center'
 									/>
 									<span className='flex-grow flex flex-col pl-4'>
@@ -178,7 +178,7 @@ const Testimonial = () => {
 								<a className='inline-flex items-center'>
 									<img
 										alt='testimonial'
-										src='../../assets/clent-6.jpg'
+										src='/public/assets/clent-6.jpg'
 										className='w-12 h-12 rounded-full flex-shrink-0 object-cover object-center'
 									/>
 									<span className='flex-grow flex flex-col pl-4'>

@@ -22,7 +22,7 @@ const Hero = () => {
 							</p>
 							<div className='hidden lg:flex relative h-[300px] z-[-1]'>
 								<img
-									src='../../assets/hero-min-pic.png'
+									src='/public/assets/hero-min-pic.png'
 									className='absolute top-[-120px] right-[-35px] scale-75 w-[50%]'
 									alt='like-logo'
 								/>
@@ -36,7 +36,7 @@ const Hero = () => {
 					</div>
 					<div className='hidden lg:flex w-[750px] h-[700px]'>
 						<img
-							src='../../assets/hero-main-pic.png'
+							src='/public/assets/hero-main-pic.png'
 							className='w-full h-full rounded-lg hidden lg:flex'
 							alt='washing rug'
 						/>

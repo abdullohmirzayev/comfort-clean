@@ -51,7 +51,7 @@ const Contact = ({ openModal, loading, sentMessage }) => {
 					<div className={style.contact_right}>
 						<img
 							className={style.contact_img}
-							src='../../assets/cantact.png'
+							src='/public/assets/cantact.png'
 							alt='pic'
 						/>
 					</div>
