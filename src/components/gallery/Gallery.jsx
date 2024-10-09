@@ -13,32 +13,32 @@ const Gallery = () => {
 			</div>
 			<div className={styles.gallery_container}>
 				<div className={`${styles.gallery_item} ${styles.large}`}>
-					<img src='/src/assets/gallery-5.jpg' alt='Tijorat' />
+					<img src='src/assets/gallery-5.jpg' alt='Tijorat' />
 					<a href='#contact' className={styles.link_button}>
 						<button className={styles.link_btn}>{t('button_link')}</button>
 					</a>
 				</div>
 
 				<div className={`${styles.gallery_item} ${styles.small}`}>
-					<img src='/src/assets/gallery-1.png' alt='ishjoy' />
+					<img src='src/assets/gallery-1.png' alt='ishjoy' />
 					<a href='#contact' className={styles.link_button}>
 						<button className={styles.link_btn}>{t('button_link')}</button>
 					</a>
 				</div>
 				<div className={`${styles.gallery_item} ${styles.small}`}>
-					<img src='/src/assets/gallery-2.png' alt='usuna' />
+					<img src='src/assets/gallery-2.png' alt='usuna' />
 					<a href='#contact' className={styles.link_button}>
 						<button className={styles.link_btn}>{t('button_link')}</button>
 					</a>
 				</div>
 				<div className={`${styles.gallery_item} ${styles.small}`}>
-					<img src='/src/assets/gallery-3.png' alt='turar joyni o`zida' />
+					<img src='src/assets/gallery-3.png' alt='turar joyni o`zida' />
 					<a href='#contact' className={styles.link_button}>
 						<button className={styles.link_btn}>{t('button_link')}</button>
 					</a>
 				</div>
 				<div className={`${styles.gallery_item} ${styles.small}`}>
-					<img src='/src/assets/gallery-4.png' alt='qurutish jarayoni' />
+					<img src='src/assets/gallery-4.png' alt='qurutish jarayoni' />
 					<a href='#contact' className={styles.link_button}>
 						<button className={styles.link_btn}>{t('button_link')}</button>
 					</a>

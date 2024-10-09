@@ -30,7 +30,7 @@ const Contact = ({ openModal, loading, sentMessage }) => {
 										className={`${style.contact_input} ${style.contact_number}`}
 										type='number'
 										placeholder='+998-90-123-45-67'
-										min='9'						
+										min='9'
 										id='phone_num'
 									/>
 								</label>
@@ -39,7 +39,11 @@ const Contact = ({ openModal, loading, sentMessage }) => {
 									className={style.contact_send_btn}
 									type='submit'
 								>
-									{loading ? <>{t('contact_button_1')}</> : <>{t('contact_button_2')}</>}
+									{loading ? (
+										<>{t('contact_button_1')}</>
+									) : (
+										<>{t('contact_button_2')}</>
+									)}
 								</button>
 							</form>
 						</div>
@@ -47,7 +51,7 @@ const Contact = ({ openModal, loading, sentMessage }) => {
 					<div className={style.contact_right}>
 						<img
 							className={style.contact_img}
-							src='/src/assets/cantact.png'
+							src='src/assets/cantact.png'
 							alt='pic'
 						/>
 					</div>

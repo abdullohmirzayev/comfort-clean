@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
-import styles from './Navbar.module.css'
 import { useTranslation } from 'react-i18next'
+import styles from './Navbar.module.css'
 
 const Navbar = ({ handleChange, lange }) => {
 	const [scrolled, setScrolled] = useState(false)
@@ -37,7 +37,7 @@ const Navbar = ({ handleChange, lange }) => {
 						href='#main'
 					>
 						<img
-							src='/src/assets/logo.png'
+							src='src/assets/logo.png'
 							alt='logo'
 							className={`${styles.nav_logo_link}`}
 						/>

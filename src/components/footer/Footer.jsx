@@ -11,7 +11,7 @@ const Footer = () => {
 					<a href='#' className={style.footer_logo_link}>
 						<img
 							className={style.logo_pic}
-							src='/src/assets/logo.png'
+							src='src/assets/logo.png'
 							alt='This is the footer logo'
 						/>
 					</a>
@@ -43,9 +43,7 @@ const Footer = () => {
 											></path>
 										</svg>
 									</span>
-									<p className={style.fd_text}>
-										{t('footer_info')}
-									</p>
+									<p className={style.fd_text}>{t('footer_info')}</p>
 									<svg
 										stroke='currentColor'
 										fill='none'

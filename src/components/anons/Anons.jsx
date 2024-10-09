@@ -1,8 +1,8 @@
 import React from 'react'
+import { useTranslation } from 'react-i18next'
 import Carousel from 'react-multi-carousel'
 import { responsive } from '../../config/constants'
 import styles from './Anons.module.css'
-import { useTranslation } from 'react-i18next'
 
 const Anons = () => {
 	const { t } = useTranslation()
@@ -24,50 +24,66 @@ const Anons = () => {
 				infinite
 				className='w-full'
 			>
-				<div data-aos='fade-right' data-aos-duration='1500' className={styles.carousel_item}>
+				<div
+					data-aos='fade-right'
+					data-aos-duration='1500'
+					className={styles.carousel_item}
+				>
 					<video
 						className='w-[90%] max-w-[375px] h-auto'
 						controls
 						autoPlay
 						muted
 					>
-						<source src='/src/assets/anons-1.mp4' type='video/mp4' />
+						<source src='src/assets/anons-1.mp4' type='video/mp4' />
 						Your browser does not support the video tag.
 					</video>
 				</div>
 
-				<div data-aos='fade-right' data-aos-duration='1500' className={styles.carousel_item}>
+				<div
+					data-aos='fade-right'
+					data-aos-duration='1500'
+					className={styles.carousel_item}
+				>
 					<video
 						className='w-[90%] max-w-[375px] h-auto'
 						controls
 						autoPlay
 						muted
 					>
-						<source src='/src/assets/anons-2.mp4' type='video/mp4' />
+						<source src='src/assets/anons-2.mp4' type='video/mp4' />
 						Your browser does not support the video tag.
 					</video>
 				</div>
 
-				<div data-aos='fade-left' data-aos-duration='1500' className={styles.carousel_item}>
+				<div
+					data-aos='fade-left'
+					data-aos-duration='1500'
+					className={styles.carousel_item}
+				>
 					<video
 						className='w-[90%] max-w-[375px] h-auto'
 						controls
 						autoPlay
 						muted
 					>
-						<source src='/src/assets/anons-3.mp4' type='video/mp4' />
+						<source src='src/assets/anons-3.mp4' type='video/mp4' />
 						Your browser does not support the video tag.
 					</video>
 				</div>
 
-				<div data-aos='fade-left' data-aos-duration='1500' className={styles.carousel_item}>
+				<div
+					data-aos='fade-left'
+					data-aos-duration='1500'
+					className={styles.carousel_item}
+				>
 					<video
 						className='w-[90%] max-w-[375px] h-auto'
 						controls
 						autoPlay
 						muted
 					>
-						<source src='/src/assets/anons-4.mp4' type='video/mp4' />
+						<source src='src/assets/anons-4.mp4' type='video/mp4' />
 						Your browser does not support the video tag.
 					</video>
 				</div>
