@@ -1,5 +1,6 @@
 import { useTranslation } from 'react-i18next'
 import style from './Footer.module.css'
+import Logo from '/assets/logo.png'
 
 const Footer = () => {
 	const { t } = useTranslation()
@@ -11,7 +12,7 @@ const Footer = () => {
 					<a href='#' className={style.footer_logo_link}>
 						<img
 							className={style.logo_pic}
-							src='/public/assets/logo.png'
+							src={Logo}
 							alt='This is the footer logo'
 						/>
 					</a>

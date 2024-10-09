@@ -1,5 +1,7 @@
 import { useTranslation } from 'react-i18next'
 import styles from './Hero.module.css'
+import heromin from '/assets/hero-min-pic.png'
+import heromain from '/assets/hero-main-pic.png'
 
 const Hero = () => {
 	const { t } = useTranslation()
@@ -22,7 +24,7 @@ const Hero = () => {
 							</p>
 							<div className='hidden lg:flex relative h-[300px] z-[-1]'>
 								<img
-									src='/public/assets/hero-min-pic.png'
+									src={heromin}
 									className='absolute top-[-120px] right-[-35px] scale-75 w-[50%]'
 									alt='like-logo'
 								/>
@@ -36,7 +38,7 @@ const Hero = () => {
 					</div>
 					<div className='hidden lg:flex w-[750px] h-[700px]'>
 						<img
-							src='/public/assets/hero-main-pic.png'
+							src={heromain}
 							className='w-full h-full rounded-lg hidden lg:flex'
 							alt='washing rug'
 						/>

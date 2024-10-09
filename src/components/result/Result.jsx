@@ -1,5 +1,7 @@
 import { useState } from 'react'
 import { useTranslation } from 'react-i18next'
+import nasty from '/assets/nasty.jpg'
+import result from '/assets/result.jpg'
 
 const ResultRug = () => {
 	const [sliderPosition, setSliderPosition] = useState(50)
@@ -42,17 +44,13 @@ const ResultRug = () => {
 					onMouseMove={handleMove}
 					onMouseDown={handleMouseDown}
 				>
-					<img src='/public/assets/nasty.jpg' alt='before result' />
+					<img src={nasty} alt='before result' />
 
 					<div
 						className='absolute top-0 left-0 right-0 bottom-0 w-full max-w-[700px] aspect-[70/45] m-auto overflow-hidden select-none'
 						style={{ clipPath: `inset(0 ${100 - sliderPosition}% 0 0)` }}
 					>
-						<img
-							src='/public/assets/result.jpg'
-							alt='after result'
-							className='object-fill'
-						/>
+						<img src={result} alt='after result' className='object-fill' />
 					</div>
 					<div
 						className='absolute top-0 bottom-0 w-1 bg-[#04a2ba] cursor-ew-resize'

@@ -1,7 +1,8 @@
 import { useTranslation } from 'react-i18next'
 import style from './Contact.module.css'
+import cantactImg from '/assets/cantact.png'
 
-const Contact = ({ openModal, loading, sentMessage }) => {
+const Contact = ({ loading, sentMessage }) => {
 	const { t } = useTranslation()
 	return (
 		<section className='w-full' id='contact'>
@@ -49,11 +50,7 @@ const Contact = ({ openModal, loading, sentMessage }) => {
 						</div>
 					</div>
 					<div className={style.contact_right}>
-						<img
-							className={style.contact_img}
-							src='/public/assets/cantact.png'
-							alt='pic'
-						/>
+						<img className={style.contact_img} src={cantactImg} alt='pic' />
 					</div>
 				</div>
 			</div>

@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import styles from './Navbar.module.css'
+import Logo from '/assets/logo.png'
 
 const Navbar = ({ handleChange, lange }) => {
 	const [scrolled, setScrolled] = useState(false)
@@ -36,11 +37,7 @@ const Navbar = ({ handleChange, lange }) => {
 						className={`flex items-center justify-center w-[300px] h-[80px] cursor-pointer ${styles.nav_logo_link}`}
 						href='#main'
 					>
-						<img
-							src='/public/assets/logo.png'
-							alt='logo'
-							className={`${styles.nav_logo_link}`}
-						/>
+						<img src={Logo} alt='logo' className={`${styles.nav_logo_link}`} />
 					</a>
 					<div className={`flex items-center justify-between max-w-[950px]`}>
 						<div className={`hidden md:hidden lg:flex items-center mr-[20px]`}>

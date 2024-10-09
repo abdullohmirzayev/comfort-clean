@@ -3,6 +3,13 @@ import { useTranslation } from 'react-i18next'
 import Carousel from 'react-multi-carousel'
 import { cleantCarusel } from '../../config/constants'
 
+import clent1 from '/assets/clent-1.jpg'
+import clent2 from '/assets/clent-2.webp'
+import clent3 from '/assets/clent-3.jpg'
+import clent4 from '/assets/clent-4.jpg'
+import clent5 from '/assets/clent-1.jpg'
+import clent6 from '/assets/clent-6.jpg'
+
 const Testimonial = () => {
 	const { t } = useTranslation()
 	return (
@@ -37,7 +44,7 @@ const Testimonial = () => {
 								<a className='inline-flex items-center'>
 									<img
 										alt='testimonial'
-										src='/public/assets/clent-1.jpg'
+										src={clent1}
 										className='w-12 h-12 rounded-full flex-shrink-0 object-cover object-center'
 									/>
 									<span className='flex-grow flex flex-col pl-4'>
@@ -65,7 +72,7 @@ const Testimonial = () => {
 								<a className='inline-flex items-center'>
 									<img
 										alt='testimonial'
-										src='/public/assets/clent-2.webp'
+										src={clent2}
 										className='w-12 h-12 rounded-full flex-shrink-0 object-cover object-center'
 									/>
 									<span className='flex-grow flex flex-col pl-4'>
@@ -93,7 +100,7 @@ const Testimonial = () => {
 								<a className='inline-flex items-center'>
 									<img
 										alt='testimonial'
-										src='/public/assets/clent-3.jpg'
+										src={clent3}
 										className='w-12 h-12 rounded-full flex-shrink-0 object-cover object-center'
 									/>
 									<span className='flex-grow flex flex-col pl-4'>
@@ -121,7 +128,7 @@ const Testimonial = () => {
 								<a className='inline-flex items-center'>
 									<img
 										alt='testimonial'
-										src='/public/assets/clent-4.jpg'
+										src={clent4}
 										className='w-12 h-12 rounded-full flex-shrink-0 object-cover object-center'
 									/>
 									<span className='flex-grow flex flex-col pl-4'>
@@ -149,7 +156,7 @@ const Testimonial = () => {
 								<a className='inline-flex items-center'>
 									<img
 										alt='testimonial'
-										src='/public/assets/clent-1.jpg'
+										src={clent5}
 										className='w-12 h-12 rounded-full flex-shrink-0 object-cover object-center'
 									/>
 									<span className='flex-grow flex flex-col pl-4'>
@@ -178,7 +185,7 @@ const Testimonial = () => {
 								<a className='inline-flex items-center'>
 									<img
 										alt='testimonial'
-										src='/public/assets/clent-6.jpg'
+										src={clent6}
 										className='w-12 h-12 rounded-full flex-shrink-0 object-cover object-center'
 									/>
 									<span className='flex-grow flex flex-col pl-4'>

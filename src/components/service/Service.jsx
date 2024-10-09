@@ -1,6 +1,13 @@
 import { useTranslation } from 'react-i18next'
 import styles from './Service.module.css'
 
+import service1 from '/assets/service-1.png'
+import service2 from '/assets/service-2.png'
+import service3 from '/assets/service-3.png'
+import service4 from '/assets/service-4.png'
+import service5 from '/assets/service-5.png'
+
+
 const Service = () => {
 	const { t } = useTranslation()
 	return (
@@ -23,7 +30,7 @@ const Service = () => {
 								<div className='w-full h-2/4'>
 									<img
 										className='w-full h-full'
-										src='/public/assets/service-1.png'
+										src={service1}
 										alt='service img'
 									/>
 								</div>
@@ -49,7 +56,7 @@ const Service = () => {
 								<div className='w-full h-2/4'>
 									<img
 										className='w-full h-full'
-										src='/public/assets/service-2.png'
+										src={service2}
 										alt='service img'
 									/>
 								</div>
@@ -75,7 +82,7 @@ const Service = () => {
 								<div className='w-full h-2/4'>
 									<img
 										className='w-full h-full'
-										src='/public/assets/service-3.png'
+										src={service3}
 										alt='service img'
 									/>
 								</div>
@@ -101,7 +108,7 @@ const Service = () => {
 								<div className='w-full h-2/4'>
 									<img
 										className='w-full h-full'
-										src='/public/assets/service-4.png'
+										src={service4}
 										alt='service img'
 									/>
 								</div>
@@ -127,7 +134,7 @@ const Service = () => {
 								<div className='w-full h-2/4'>
 									<img
 										className='w-full h-full'
-										src='/public/assets/service-5.png'
+										src={service5}
 										alt='service img'
 									/>
 								</div>
