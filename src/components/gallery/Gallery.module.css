@@ -112,7 +112,7 @@
 			grid-template-columns:1fr
 	}
 
-	.gallery_item {
+	.gallery_item.large {
 			grid-column: span 1;
 			grid-row: span 1;
 			height: 250px

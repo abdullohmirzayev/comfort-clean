@@ -28,7 +28,9 @@ const Gallery = () => {
 	}, [])
 
 	return (
-		<div className={`${styles.container} overflow-hidden`}>
+		<div
+			className={`${styles.container} overflow-hidden max-w-[1560px] my-0 mx-auto py-0 px-4 box-border`}
+		>
 			<div data-aos='flip-down' data-aos-duration='1500'>
 				<h2 className='w-full flex items-start justify-start pb-[32px] text-[#020c31] font-[Unbounded] text-2xl lg:text-4xl not-italic font-semibold ml-5'>
 					{t('gallery_title')}
