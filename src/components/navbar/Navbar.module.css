@@ -36,7 +36,6 @@
 	font-size: 20px;
 	font-weight: 500;
 	margin-left: 25px;
-	color: #00000098;
 }
 
 .nav_links:hover {
@@ -60,6 +59,11 @@
 
 .sidebar {
 	animation: slide-sidebar 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+	background: radial-gradient(
+		333.17% 80.94% at 51.32% 69.21%,
+		#04a2ba 0%,
+		rgba(2, 227, 214, 0.2) 100%
+	);
 }
 
 .btn_11_nav {

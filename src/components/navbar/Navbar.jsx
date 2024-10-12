@@ -41,19 +41,19 @@ const Navbar = ({ handleChange, lange }) => {
 					</a>
 					<div className={`flex items-center justify-between max-w-[950px]`}>
 						<div className={`hidden md:hidden lg:flex items-center mr-[20px]`}>
-							<a href='#main' className={styles.nav_links}>
+							<a href='#main' className={`${styles.nav_links} text-[#00000098]`}>
 								{t('nav_item_1')}
 							</a>
-							<a href='#about' className={styles.nav_links}>
+							<a href='#about' className={`${styles.nav_links} text-[#00000098]`}>
 								{t('nav_item_2')}
 							</a>
-							<a href='#serv' className={styles.nav_links}>
+							<a href='#serv' className={`${styles.nav_links} text-[#00000098]`}>
 								{t('nav_item_3')}
 							</a>
-							<a href='#comment' className={styles.nav_links}>
+							<a href='#comment' className={`${styles.nav_links} text-[#00000098]`}>
 								{t('nav_item_4')}
 							</a>
-							<a href='#faq' className={styles.nav_links}>
+							<a href='#faq' className={`${styles.nav_links} text-[#00000098]`}>
 								{t('nav_item_5')}
 							</a>
 							<a href='#contact' className={`hidden`}>
@@ -97,19 +97,19 @@ const Navbar = ({ handleChange, lange }) => {
 									}`}
 								>
 									<div className={`flex items-center justify-center flex-1`}>
-										<a href='#main' className={`${styles.nav_links}`}>
+										<a href='#main' className={`${`${styles.nav_links} tex--[#fff]`}`}>
 											{t('nav_item_1')}
 										</a>
-										<a href='#about' className={styles.nav_links}>
+										<a href='#about' className={`${styles.nav_links} tex--[#fff]`}>
 											{t('nav_item_2')}
 										</a>
-										<a href='#serv' className={styles.nav_links}>
+										<a href='#serv' className={`${styles.nav_links} tex--[#fff]`}>
 											{t('nav_item_3')}
 										</a>
-										<a href='#comment' className={styles.nav_links}>
+										<a href='#comment' className={`${styles.nav_links} tex--[#fff]`}>
 											{t('nav_item_4')}
 										</a>
-										<a href='#faq' className={styles.nav_links}>
+										<a href='#faq' className={`${styles.nav_links} tex--[#fff]`}>
 											{t('nav_item_5')}
 										</a>
 									</div>
