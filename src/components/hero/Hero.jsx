@@ -19,7 +19,7 @@ const Hero = () => {
 							>
 								{t('hero_title')}
 							</h1>
-							<p className='max-w-[400px] font-[Unbounded] text-lg font-light text-[#fff] lg:text-[#272121] mt-10 lg:mt-36'>
+							<p className='max-w-[400px] font-[Unbounded] text-base lg:text-lg font-light text-[#fff] lg:text-[#272121] mt-10 lg:mt-36'>
 								{t('hero_des')}
 							</p>
 							<div className='hidden lg:flex relative h-[300px] z-[-1]'>

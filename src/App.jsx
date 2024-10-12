@@ -9,6 +9,7 @@ import {
 	Footer,
 	Gallery,
 	Hero,
+	Loader,
 	Navbar,
 	OurWork,
 	ResultRug,
@@ -30,6 +31,14 @@ const App = () => {
 	// i18next
 	const { t, i18n } = useTranslation()
 	const lange = localStorage.getItem('i18nextLng')
+
+	// Loader
+	const [loader, setLoader] = useState(true)
+
+	useEffect(() => {
+		const timer = setTimeout(() => setLoader(false), 3000)
+		return () => clearTimeout(timer)
+	}, [])
 
 	const sentMessage = event => {
 		setLoading(true)
@@ -89,30 +98,38 @@ const App = () => {
 		})
 	}, [])
 	return (
-		<div id='main'>
-			<Navbar handleChange={handleChange} lange={lange} />
-			<Hero />
-			<About />
-			<Clean />
-			<Service />
-			<ResultRug />
-			<Anons />
-			<OurWork />
-			<Gallery />
-			<Testimonial />
-			<Faq />
-			<Contact
-				openModal={openModal}
-				loading={loading}
-				sentMessage={sentMessage}
-			/>
-			<ContactModal
-				isModalOpen={isModalOpen}
-				wellDoneClass={wellDoneClass}
-				closeModal={closeModal}
-			/>
-			<Footer />
-		</div>
+		<>
+			{loader ? (
+				<div className='h-screen flex justify-center items-center'>
+					<Loader />
+				</div>
+			) : (
+				<div id='main'>
+					<Navbar handleChange={handleChange} lange={lange} />
+					<Hero />
+					<About />
+					<Clean />
+					<Service />
+					<ResultRug />
+					<Anons />
+					<OurWork />
+					<Gallery />
+					<Testimonial />
+					<Faq />
+					<Contact
+						openModal={openModal}
+						loading={loading}
+						sentMessage={sentMessage}
+					/>
+					<ContactModal
+						isModalOpen={isModalOpen}
+						wellDoneClass={wellDoneClass}
+						closeModal={closeModal}
+					/>
+					<Footer />
+				</div>
+			)}
+		</>
 	)
 }
 

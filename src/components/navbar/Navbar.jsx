@@ -27,8 +27,8 @@ const Navbar = ({ handleChange, lange }) => {
 
 	return (
 		<section
-			className={`w-[100%] p-[20px 0] fixed top-0 transition-all duration-300 z-[10] opacity-90 bg-white	 ${
-				scrolled ? 'shadow-md shadow-gray-200 z-[100000]' : ''
+			className={`w-[100%] p-[20px 0] fixed top-0 transition-all duration-300 opacity-90 bg-white z-[100000] ${
+				scrolled ? 'shadow-md shadow-gray-200' : ''
 			}`}
 		>
 			<div className={`max-w-[1560px] mx-auto my-0 px-[20px] py-1 lg:py-5`}>

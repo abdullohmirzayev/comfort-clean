@@ -25,7 +25,7 @@ const ResultRug = () => {
 	}
 
 	return (
-		<section className='flex max-h-screen flex-col items-center p-24'>
+		<section className='flex max-h-screen flex-col items-center p-7'>
 			<div data-aos='flip-down' data-aos-duration='1500'>
 				<h2 className='flex items-center justify-start pb-[32px] text-[#020c31] font-[Unbounded] text-2xl lg:text-4xl not-italic font-semibold ml-9 lg:ml-0'>
 					{t('result_title')}

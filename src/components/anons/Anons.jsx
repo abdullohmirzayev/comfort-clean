@@ -23,9 +23,9 @@ const Anons = () => {
 			<Carousel
 				responsive={responsive}
 				showDots={false}
-				arrows={false}
+			
 				autoPlay={true}
-				autoPlaySpeed={2500}
+				autoPlaySpeed={2000}
 				infinite
 				className='w-full'
 			>
@@ -34,7 +34,7 @@ const Anons = () => {
 					data-aos-duration='1500'
 					className={styles.carousel_item}
 				>
-					<video className='w-[90%] max-w-[375px] h-auto' controls muted>
+					<video className='w-[75%] lg:w-[81%] max-w-[375px] h-auto' controls muted>
 						<source src={video1} type='video/mp4' />
 						Your browser does not support the video tag.
 					</video>
@@ -45,7 +45,7 @@ const Anons = () => {
 					data-aos-duration='1500'
 					className={styles.carousel_item}
 				>
-					<video className='w-[90%] max-w-[375px] h-auto' controls muted>
+					<video className='w-[75%] lg:w-[81%] max-w-[375px] h-auto' controls muted>
 						<source src={video2} type='video/mp4' />
 						Your browser does not support the video tag.
 					</video>
@@ -56,7 +56,7 @@ const Anons = () => {
 					data-aos-duration='1500'
 					className={styles.carousel_item}
 				>
-					<video className='w-[90%] max-w-[375px] h-auto' controls muted>
+					<video className='w-[75%] lg:w-[81%] max-w-[375px] h-auto' controls muted>
 						<source src={video3} type='video/mp4' />
 						Your browser does not support the video tag.
 					</video>
@@ -67,7 +67,7 @@ const Anons = () => {
 					data-aos-duration='1500'
 					className={styles.carousel_item}
 				>
-					<video className='w-[90%] max-w-[375px] h-auto' controls muted>
+					<video className='w-[75%] lg:w-[81%] max-w-[375px] h-auto' controls muted>
 						<source src={video4} type='video/mp4' />
 						Your browser does not support the video tag.
 					</video>
